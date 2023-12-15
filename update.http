@@ -1,0 +1,12 @@
+PUT http://localhost:8080/ship/update
+Content-Type: application/json
+
+{
+  "fuel": 180.0,
+  "totalWeightCapacity": 5500,
+  "maxNumberOfAllContainers": 60,
+  "maxNumberOfHeavyContainers": 25,
+  "maxNumberOfRefrigeratedContainers": 15,
+  "maxNumberOfLiquidContainers": 20,
+  "fuelConsumptionPerKM": 0.04
+}

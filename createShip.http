@@ -1,0 +1,13 @@
+POST http://localhost:8080/ship/create
+Content-Type: application/json
+
+{
+  "fuel": 150.0,
+  "currentPort": {"id": 2},
+  "totalWeightCapacity": 40,
+  "maxNumberOfAllContainers": 700,
+  "maxNumberOfHeavyContainers": 200,
+  "maxNumberOfRefrigeratedContainers": 200,
+  "maxNumberOfLiquidContainers": 250,
+  "fuelConsumptionPerKM": 0.0006
+}
